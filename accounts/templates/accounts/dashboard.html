@@ -1,14 +1,12 @@
 {%extends 'accounts/main.html'%}
 
 {% block content %}
-
+{% include 'accounts/status.html' %}
 <br>
-
 <div class="row">
     <div class="col-md-5">
         <h5>CUSTOMERS:</h5>
         <hr>
-
         <div class="card card-body">
             <a href="" class="btn btn-primary btn-sm btn-block">
                 Create Customer
@@ -21,6 +19,7 @@
             </table>
         </div>
     </div>
+
 
     <div class="col-md-7">
         <h5>LAST 5 ORDERS</h5>
